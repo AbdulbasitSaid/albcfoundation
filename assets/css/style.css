@@ -104,7 +104,7 @@ footer, header, hgroup, menu, nav, section {
     scroll-behavior: inherit;
     --primary-color: #D59B2D;
     --primary-rgb: 213, 155, 45;
-    --secondary-color: #477763;
+    --secondary-color: #064621;
     --secondary-rgb: 71, 1191, 99;
     --bistre-color: #31231E;
     --bistre-rgb: 49, 35, 30;
@@ -4492,7 +4492,6 @@ footer .social-icons a:hover{
 .static-banner{
     padding: 11rem 0 7rem;
     position: relative;
-    box-shadow: 0px 0px 57px 0px rgba(0, 0, 0, 0.5);
 }
 
 .static-banner .slider-link{
