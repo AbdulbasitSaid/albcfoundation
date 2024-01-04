@@ -179,6 +179,10 @@ a:focus {
     transition: all 0.15s linear;
     z-index: 999;
 }
+.logo-image{
+    height: 50px;
+    width: 40px;
+}
 @media (min-width: 991.99px) {    
     .header-fullpage.fixed {
         background: rgba(255, 255, 255, 0.9);
@@ -189,7 +193,7 @@ a:focus {
     .header-style-fullwidth.fixed{
         background-color: rgba(5, 5, 5, 0.7);
         box-shadow: 0px 0px 70px 0px rgb(0 0 0 / 20%);
-    }
+    }   
     /* .header-fullpage.fixed .top-bar-right{
         height: 0px;
         overflow: hidden;
@@ -210,6 +214,7 @@ a:focus {
 .header-fullpage.fixed .navbar-brand {
     width: 140px;
 }
+
 /* 3.1 Headers Styles End */
 
 /*------------------------------------------*/
