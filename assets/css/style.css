@@ -4110,7 +4110,7 @@ footer .social-icons a:hover{
 .funds-committed .counter::after{
     position: absolute;
     z-index: 1;
-    content: "$";
+    content: "₦";
     font-family: 'DM Sans', sans-serif;
     left: 0;
 }
