@@ -133,6 +133,10 @@ body {
 img{
     max-width: 100%;
 }
+.slide-image{
+    max-height: 300px;
+    object-fit: cover;
+}
 
 label {
     font-size: 0.875rem;
