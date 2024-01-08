@@ -726,7 +726,7 @@ a:focus {
     z-index: -99;
 }
 .breadcrumbs-page {
-    background-image: url(../images/breadcrumbs_bg.jpg);
+    background-image: url(../images/breadcrumbs_bg.jpeg);
     background-repeat: no-repeat;
     background-position: center !important;
     max-width: 100%;
