@@ -112,6 +112,7 @@ footer, header, hgroup, menu, nav, section {
     --cadet-rgb: 28, 35, 57;
     --white: #FFF;
     --white-rgb: 255, 255, 255;
+
 }
 
 
@@ -132,6 +133,9 @@ body {
 }
 img{
     max-width: 100%;
+}
+img .volunteer-img{
+    object-fit: cover;
 }
 .slide-image{
     max-height: 300px;
@@ -741,7 +745,7 @@ a:focus {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.8);
     z-index: -1;
     border-radius: 0;
 }
@@ -788,8 +792,9 @@ a:focus {
     font-size: 1.0rem;
     font-family: IcoFont!important;
 }
+
 .breadcrumbs-page h1 {
-    color: var(--white);
+    color: var(--cadet-color);
     text-transform: capitalize;
     font-size: 4.5rem;
     font-weight: 600;
@@ -3670,7 +3675,6 @@ footer .social-icons a:hover{
     height: 160px;
 	width: 160px;
 	overflow: hidden;
-
 	-webkit-transition: all 400ms ease-in-out;
     -moz-transition: all 400ms ease-in-out;
     -o-transition: all 400ms ease-in-out;
@@ -3678,8 +3682,8 @@ footer .social-icons a:hover{
     transition: all 400ms ease-in-out;
 }
 .team-section-wrap .img img{
-	width: 160px;
 	margin: 0 auto 25px;
+    object-fit: contain;
 	-webkit-transition: all 400ms ease-in-out;
     -moz-transition: all 400ms ease-in-out;
     -o-transition: all 400ms ease-in-out;
