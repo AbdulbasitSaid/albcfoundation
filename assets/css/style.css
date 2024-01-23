@@ -1842,6 +1842,11 @@ i[class*="charity-"]{
 .charity-donate_money:before {
 	content: "\e900";
 }
+.thank-you{
+    color: var(--primary-color);
+    font-size: 10rem;
+    display: block;
+}
 .charity-environment_tree:before {
 	content: "\e901";
 }
