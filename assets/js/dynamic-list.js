@@ -52,7 +52,7 @@ contentData.forEach(data => {
                 <h3><a href="${data.link}">${data.title}</a></h3>
                 <p>${data.description}</p>
                 <div class="btn-wrap">
-                    <a class="btn-primary btn" href="#">Donate Now</a>
+                    <a class="btn-primary btn" href="donation-page.html">Donate Now</a>
                 </div>
             </div>
         </div>
