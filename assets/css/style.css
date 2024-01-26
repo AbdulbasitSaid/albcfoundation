@@ -3596,12 +3596,8 @@ footer .social-icons a:hover{
     color: #beafb1;
     display: block;
     stroke-width: 1px;
-    position: absolute;
     width: 60px;
     height: 60px;
-    left: -18px;
-    top: 50%;
-    transform: translateY(-50%);
 }
 .icon-box-4 h3 {
     font-size: 1.25rem;
@@ -4552,6 +4548,8 @@ footer .social-icons a:hover{
 .banner-img img{
     border-radius: 0;
     width: 100%;
+    object-fit: cover;
+    max-height: 32rem;
 }
 .banner-text h1{
     color: var(--primary-color);
